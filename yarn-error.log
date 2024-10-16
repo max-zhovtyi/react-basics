@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\maxim\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python312\Scripts\;C:\Python312\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Python39\Scripts\;C:\Python27\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\maxim\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.4\bin;;C:\Users\maxim\AppData\Local\GitHubDesktop\bin;C:\openshift;C:\helm\helm-v3.9.0-windows-amd64;C:\helm\helmfile;C:\Users\maxim\AppData\Local\Microsoft\WinGet\Packages\Kubernetes.kubectl_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\maxim\AppData\Local\Microsoft\WinGet\Packages\ahmetb.kubectx_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\maxim\AppData\Local\Microsoft\WinGet\Packages\ahmetb.kubens_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\maxim\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  22.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND artifactory.ccta.dk
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+
+npm manifest: 
+  {
+    "name": "react-basics",
+    "version": "1.0.0",
+    "main": "vite.config.js",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^4.0.0",
+      "vite": "^4.3.9"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
